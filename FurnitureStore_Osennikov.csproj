@@ -116,7 +116,10 @@
     <Resource Include="Image\vk.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\Scaf.jpg" />
+    <Resource Include="Image\Items\Scaf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Items\placeholder.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
