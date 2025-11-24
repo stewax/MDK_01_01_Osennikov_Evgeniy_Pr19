@@ -23,6 +23,12 @@ namespace FurnitureStore_Osennikov
         public MainWindow()
         {
             InitializeComponent();
+            OpenPage(new Pages.Main());
+        }
+
+        public void OpenPage(Page page)
+        {
+            frame.Navigate(page);
         }
     }
 }
